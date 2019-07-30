@@ -8,7 +8,7 @@ router.get('/',function(request,response){
         if(err){
             return response.status(500).send('Server error')
         }
-        students = response.jsonp(results)
+        // students = response.jsonp(results)
         // console.log(students);
         // response.render('index.html',{
         //     fruits:[
